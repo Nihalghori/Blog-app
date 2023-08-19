@@ -1,0 +1,252 @@
+/* Reset default margin and padding */
+
+
+/* Set a background color for the whole page */
+body {
+    background-color: #cfcccc;
+    font-family:  Verdana (sans-serif);
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.post {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.username {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.post-image {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.like-count {
+    color: #333;
+    margin-right: 10px;
+}
+
+.post-content {
+    padding: 15px;
+}
+
+.action-icons {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.action-button {
+    margin-right: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+#post-form {
+    margin-top: 20px;
+}
+
+#post-text {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+}
+
+#user-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#user-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+header {
+    background-color: #000000;
+    border: 2px solid yellow;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 1rem 0;
+  }
+  .first2{
+    text-align: center;
+  }
+  #post-form{
+    border: 2px solid white;
+    width: 886px;
+    height:330;
+    background-color: #ffffff;
+    margin-left: 20%;
+    margin-bottom: 10%;
+  }
+  #author-name{
+    margin-top : 40px;
+    margin-left : 20px;
+    border-radius:10px ;
+    border: 6px solid rgb(34, 102, 165);
+    width: 760px;
+    padding: 10px;
+    font-weight: bolder;
+  }
+#post-text{
+    margin-top : 40px;
+    margin-left : 20px;
+    border-radius:10px ;
+    border: 6px solid rgb(223, 140, 16);
+    width: 760px;
+    padding: 40px; 
+    font-weight: bolder;
+}
+  .submit{
+    width: 130px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    background-color: blue;
+    border:none ;
+    border-radius:20px;
+    color: white
+  }
+ /* Reset some default browser styling */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic layout styling */
+
+
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Styling for blog post cards */
+.post-card {
+    width: 40%;
+    margin-left: 400px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url(3135715.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: 10px 20px;
+}
+
+.post-card p {
+    margin-bottom: 0.5rem;
+    overflow-wrap: break-word;
+    
+}
+
+.post-card button {
+    padding: 0.3rem 0.6rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post-card button:hover {
+    background-color: #555;
+}
+.post-author{
+    
+    background-repeat: no-repeat;
+    font-size:30px;
+    position: relative;
+    bottom: 45px;
+}
+.post-timestamp{
+    position: relative;
+    bottom : 120px;
+    font-size: large;
+    font-weight: bold;
+}
+.MY-BLOGS{
+    font-size:60px;
+    margin-left: 360px;
+    margin-bottom: 60px;
+}
+.img-responsive{
+    width: 5%;
+    margin-left: 1230px;
+}
+h3{
+    color :#fff;
+    margin-left: 1240px;
+}
+.img2{
+    
+    width: 20%;
+    margin-left:460px;
+    margin-top:50px;
+}
+#old-password{
+    font-size:20px;
+    padding : 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 350px;
+    left : 470px
+}
+#new-password{
+    font-size:20px;
+    padding : 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 440px;
+    left : 470px
+}
+.updatePassword{
+    font-size:20px;
+    padding : 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 540px;
+    left : 500px
+}

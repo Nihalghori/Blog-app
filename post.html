@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="post.css">
+    <title>My Blog</title>
+</head>
+<body>
+    <header  >   
+        <h1 class="first2">PERSONAL BLOGING APP</h1>
+        <a href="password.html" >
+            <h3>profile</h3>
+            <img src="3135715.png" alt="My Logo"  class="img-responsive" >
+          </a>
+          
+    </header>
+    <header>
+        <h1>DASHBOARD</h1>
+    </header>
+    
+        
+        
+    
+
+    
+    <form id="post-form">
+        <input type="text" id="author-name" placeholder="Your Name">
+        <textarea id="post-text" placeholder="Write your blog post"></textarea>
+        <button class="submit">Publish Blog</button>
+    </form>
+    <h1 class="MY-BLOGS">MY BLOGS</h1>
+    <div id="post-container"></div>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
